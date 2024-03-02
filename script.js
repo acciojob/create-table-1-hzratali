@@ -8,5 +8,5 @@ function insert_Row() {
     newRow.appendChild(cell1);
     newRow.appendChild(cell2);
     var table = document.getElementById('sampleTable');
-	table.insertBefore(newRow, table.rows[0]);
+	table.prepend(newRow);
 }
